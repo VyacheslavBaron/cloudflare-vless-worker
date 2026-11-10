@@ -62,3 +62,5 @@ npm run dev
 - 普通 HTTP 路径返回静态状态页；只有配置的 WebSocket 路径接受隧道连接。VLESS UUID 才是认证凭据，WebSocket 路径不替代 UUID 鉴权。
 - TLS 在 Cloudflare 边缘终止。Worker 无法提供 XTLS 或 Reality 握手；实际可达性取决于域名和访问者到 Cloudflare 的网络连通情况。
 - 配置地址和节点分享链接都包含 UUID，按密码保护，不要公开分享。
+
+---international---
