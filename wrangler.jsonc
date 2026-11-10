@@ -11,5 +11,8 @@
   //   Workers & Pages > cloudflare-vless-worker > Settings > Variables
   //   UUID  = your VLESS UUID (e.g. a12d4f8c-5269-4ebd-aed9-1ac51f008dd7)
   //   WS_PATH = WebSocket path (optional, defaults to /ws)
-  "vars": {}
+
+  "vars": {
+  "WS_PATH": "/api"
+  }
 }
