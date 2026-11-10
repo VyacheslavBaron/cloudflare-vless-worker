@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cloudflare-vless-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-09",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  // UUID and WS_PATH must be set via Cloudflare dashboard:
+  //   Workers & Pages > cloudflare-vless-worker > Settings > Variables
+  //   UUID  = your VLESS UUID (e.g. a12d4f8c-5269-4ebd-aed9-1ac51f008dd7)
+  //   WS_PATH = WebSocket path (optional, defaults to /ws)
+  "vars": {}
+}
